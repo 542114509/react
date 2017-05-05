@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .aa{
+            background: #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script src="react-15.3.1/build/react.js"></script>
+    <script src="react-15.3.1/build/react-dom.js"></script>
+    <script>
+        ReactDOM.render(
+            React.createElement("h1", {className:"aa", id:"h1"}, "Hello World!",
+            React.createElement("div", null, "divdiv")),
+            document.getElementById("app")
+        );
+
+
+
+    </script>
+</body>
+</html>
